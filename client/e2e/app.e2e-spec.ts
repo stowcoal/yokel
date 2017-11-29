@@ -1,10 +1,10 @@
-import { YokelPage } from './app.po';
+import { ClientPage } from './app.po';
 
-describe('yokel App', function() {
-  let page: YokelPage;
+describe('client App', function() {
+  let page: ClientPage;
 
   beforeEach(() => {
-    page = new YokelPage();
+    page = new ClientPage();
   });
 
   it('should display message saying app works', () => {
